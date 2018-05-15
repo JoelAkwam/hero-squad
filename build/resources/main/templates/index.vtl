@@ -1,6 +1,9 @@
-<form action="/squad">
-	<input id="squadName" name="squadName" type="text" placeholder="Squad's Name">
-	<input id="maxNumber" name="maxNumber" type="number" placeholder="Squad's size">
-	<input id="squadCause" name="squadCause" type="text" placeholder="Purpose">
-	<input type="button" value="Squad up!">
+<h1>Hero Squad!</h1>
+<p>Create a Squad!</p>
+
+<form action="/squad" method="post">
+  <input id="squadName" name="squadName" type="text" placeholder="Squad Name" required>
+  <input id="squadSize" name="squadName" type="number" placeholder="Squad size" required>
+  <input id="squadPurpose" name="squadPurpose" type="text" placeholder="Purpose" required>
+  <button type="submit" class="btn btn-success">Add Squad!</button>
 </form>
