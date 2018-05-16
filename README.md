@@ -4,7 +4,7 @@ This is a simple web application built with spark where a user is required to cr
 ## Setup/Installation
 * Click on this link https://limitless-plains-59986.herokuapp.com/
 ## Known Bugs
-There are no known bugs yet but if encoutered any bugs feel free to reach out.
+There are no known bug(s) yet but if encoutered any bugs feel free to reach out.
 ## Technologies Used
 * Visual Studio text editor.
 * Gradle.
