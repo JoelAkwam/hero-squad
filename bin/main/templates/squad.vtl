@@ -1,3 +1,14 @@
-<h1>Squad name:</h1>
-<h1>Squad size</h1>
-<h1>Squad purpose<h1>
+<h1>$squad.getName() Heroes:</h1>
+
+#if ($squad.getHeros().size()> 0)
+<ol>
+  #foreach($hero in $squad.getHeros())
+   <li><a href="/heros/$hero.getId()">$hero.getName()</a></li>
+  #end
+</ol>
+#else
+ <p style="color:blue">No Heroes!</p>
+#end
+<a href="/squads/$squad.getId()/newhero">Add Hero</a>
+
+<a href="/squads">All Squads</a>

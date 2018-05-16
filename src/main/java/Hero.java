@@ -1,53 +1,40 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Hero {
-
-    private String mHeroName;
-    private String mAbility;
-    private int mAge;
-    private String mWeakness;
-    private static List<Hero> heroList = new ArrayList<>();
-    private int mID;
-
-    public Hero(String heroName, String ability, int age, String weakness){
-        mHeroName = heroName;
-        mAbility = ability;
-        mAge = age;
-        mWeakness = weakness;
-        heroList.add(this);
-        mID = heroList.size();
+public class Hero{
+  private String mName;
+  private int mAge;
+  private String mWeakness;
+  private String mPower;
+  private int mId;
+  private static List<Hero> instances = new ArrayList<Hero>();
+  public Hero(String name, int age, String strength, String weakness){
+      mName = name;
+      mAge = age;
+      mPower = strength;
+      mWeakness =weakness ;
+      instances.add(this);
+      mId = instances.size();
     }
-
-    public String getHeroName() {
-        return mHeroName;
+    public String getName(){
+      return mName;
     }
-
-    public String getHeroPower(){
-        return mAbility;
+    public int getAge(){
+      return mAge;
     }
-
-    public int getHeroAge(){
-        return mAge;
+    public String getSpecialPower(){
+      return mPower;
     }
-
-    public static List<Hero> getHeroList() {
-        return heroList;
+    public String getWeakness(){
+      return mWeakness;
     }
-
-    public String getHeroWeakness(){
-        return mWeakness;
+    public int getId(){
+      return mId;
     }
-
+    public static List<Hero> all(){
+      return instances;
+    }
     public static void clear(){
-            heroList.clear();
-            }
-
-    public int getId() {
-        return mID;
+      instances.clear();
     }
-
-    public static Hero find(int id){
-        return heroList.get(id - 1);
-    }
-}
+  }
