@@ -1,6 +1,6 @@
 # Hero-Squad
 ## Description
-This is a simple web application built with spark where a user is required to create a *squad* and also create a *hero(s)* to add inside the *squad*. The user can create as many *squads* and *heroes* desired.
+This is a simple web application built with *Spark* where a user is required to create a *squad* and also create a *hero(s)* to add inside the *squad*. The user can create as many *squads* and *heroes* desired.
 ## Setup/Installation
 * Click on this link https://limitless-plains-59986.herokuapp.com/
 ## Known Bugs
