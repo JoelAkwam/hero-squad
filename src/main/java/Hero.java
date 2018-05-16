@@ -4,17 +4,17 @@ import java.util.List;
 public class Hero {
 
     private String mHeroName;
-    private String mHeroPower;
-    private int mHeroAge;
-    private String mHeroWeakness;
+    private String mAbility;
+    private int mAge;
+    private String mWeakness;
     private static List<Hero> heroList = new ArrayList<>();
     private int mID;
 
-    public Hero(String heroName, String heroPower, int heroAge, String heroWeakness){
+    public Hero(String heroName, String ability, int age, String weakness){
         mHeroName = heroName;
-        mHeroPower = heroPower;
-        mHeroAge = heroAge;
-        mHeroWeakness = heroWeakness;
+        mAbility = ability;
+        mAge = age;
+        mWeakness = weakness;
         heroList.add(this);
         mID = heroList.size();
     }
@@ -24,11 +24,11 @@ public class Hero {
     }
 
     public String getHeroPower(){
-        return mHeroPower;
+        return mAbility;
     }
 
     public int getHeroAge(){
-        return mHeroAge;
+        return mAge;
     }
 
     public static List<Hero> getHeroList() {
@@ -36,7 +36,7 @@ public class Hero {
     }
 
     public String getHeroWeakness(){
-        return mHeroWeakness;
+        return mWeakness;
     }
 
     public static void clear(){
