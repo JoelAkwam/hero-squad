@@ -17,7 +17,7 @@ public class App {
      }
 
     setPort(port);
-    //Root that triggers my templates
+    
     get("/", (request, response) -> {
     Map<String, Object> model = new HashMap<String, Object>();
     model.put("template", "templates/index.vtl");
