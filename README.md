@@ -13,3 +13,5 @@ There are no known bug(s) yet but if encoutered any bugs feel free to reach out.
 ## Contact details
 * Email: jakwam@gmail.com
 * GitHub: https://github.com/JoelAkwam.
+## License
+The application is licensed under the MIT Copyright (c) 2018 **Moringa School**
