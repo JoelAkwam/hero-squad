@@ -2,10 +2,9 @@
 ## Description
 This is a simple web application built with spark where a user is required to create a *squad* and also create a *hero(s)* to add inside the *squad*. The user can create as many *squads* and *heroes* desired.
 ## Setup/Installation
-* Visit this link to the repository https://github.com/JoelAkwam/hero-squad.
-* Click on the link.
+* Click on this link https://limitless-plains-59986.herokuapp.com/
 ## Known Bugs
-There are no known bugs.
+There are no known bugs yet but if encoutered any bugs feel free to reach out.
 ## Technologies Used
 * Visual Studio text editor.
 * Gradle.
